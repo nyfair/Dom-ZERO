@@ -1,0 +1,11 @@
+development:
+  adapter: mysql2
+  encoding: utf8mb4
+  database: holyshi
+  username: root
+  host: localhost
+  port: 3306
+
+production:
+  adapter: mysql2
+  encoding: utf8  # Fucking IT don't know how to upgrade mysql! Thus we couldn't use utf8mb4 for fucking emoji
